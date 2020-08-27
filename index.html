@@ -1,0 +1,133 @@
+<html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" href="mystyle.css">
+
+</head>
+
+<body id="main">
+    <div>
+        <h1 id="title">Z.N.M.D.</h1>
+    </div>
+
+    <div>
+        <P id="description">Appartment Rental Application Form</P>
+    </div>
+
+    <form id="survey-form">
+        <div class="personal">
+            <label id="name-label" for="name">Legal Name:</label>
+            <input id="name" type="text" name="name" placeholder="Enter your Name" required><br>
+
+            <label for="S.I.N">S.I.N.:</label>
+            <input type="text" name="S.I.N"><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" name="date"><br>
+
+            <label for="address">Present Address:</label>
+            <input type="text" name="address"><br>
+
+            <label for="city">City:</label>
+            <input type="text" name="city"><br>
+
+            <label for="postal">Postal Code:</label>
+            <input type="text" name="postal"><br>
+
+            <label id="number-label" for="telephone">Telephone:</label>
+            <input id="number" type="number" name="Telephone" min="10" max="10" placeholder="Enter your number"><br>
+
+            <label id="email-label" for="email">Email Address:</label>
+            <input id="email" type="email" name="email" placeholder="Enter your email" required><br>
+
+            <label for="bedrooms">Bedroom:</label>
+            <input type="radio" name="bedroom" value="One Bedroom">One Bedroom<br>
+            <input type="radio" name="bedroom" value="One Bedroom Plus Den">One Bedroom Plus Den<br>
+            <input type="radio" name="bedroom" value="Two Bedrooms">Two Bedrooms
+        </div>
+
+        <div class="previous-rental">
+            <label for="L_Stay">Length of Stay a Present Address:</label>
+            <select id="dropdown" name="lengthOfStay">
+                <option value="lessThanAYear">1 year</option>
+                <option value="lessThanTwoYear">2 years</option>
+                <option value="lessThanThreeYear">3 years</option>
+                <option value="lessThanFourYear">4 years</option>
+                <option value="MoreThanFiveYear">More Than 5 years</option>
+            </select>
+
+            <label for="L_Name">Landlord's Name:</label>
+            <input type="text" name="L_Name"><br>
+
+            <label for="L_Phone">Landlord's Number:</label>
+            <input type="Number" name="L_Phone" min="10" max="10"><br>
+
+            <label for="P_Address">Previous Address:</label>
+            <input type="text" name="P_Address"><br>
+
+            <label for="Length_P_Adreess">Length At Previous Address:</label>
+            <input type="text" name="postal"><br>
+
+            <label for="P_Name">Previous Landlord's Name:</label>
+            <input type="text" name="P_Name"><br>
+
+            <label for="P_Number">Previous Landlord's Number:</label>
+            <input type="number" name="P_Number" min="10" max="10"><br>
+
+            <label for="Proposed_Occupants">Proposed Occupants:</label>
+            <input type="checkbox" name="1_Occupants" value="1">1
+            <br>
+            <input type="checkbox" name="2_Occupants" value="2">2
+            <br>
+            <input type="checkbox" name="3_Occupants" value="3">3
+            <br>
+            <input type="checkbox" name="4_Occupants" value="4">4
+        </div>
+        <div class="employment">
+            <label for="E_Name">Employer's Name:</label>
+            <input type="text" name="E_Name"><br>
+
+            <label for="E_Phone">Employer's Number:</label>
+            <input type="Number" name="E_Phone" min="10" max="10"><br>
+
+            <label for="E_Length">Length Of Employment:</label>
+            <input type="text" name="E_Length"><br>
+
+            <label for="J_Title">Job Title:</label>
+            <input type="text" name="J_title"><br>
+
+            <label for="M_Income">Monthly Income:</label>
+            <input type="text" name="M_Income">
+        </div>
+        <div class="proof">
+            <label for="D_License">Driver's License:</label>
+            <input type="text" name="D_License"><br>
+
+            <label for="V_info">Vehicle License Plate:</label>
+            <input type="text" name="V_info"><br>
+
+            <label for="R_Name">Personal Refernce's Name:</label>
+            <input type="text" name="R_Name"><br>
+
+            <label for="R_Phone">Personal Refernce's  Number:</label>
+            <input type="Number" name="R_Phone" min="10" max="10"><br>
+
+            <label for="EC_Name">Emergency Contact Name:</label>
+            <input type="text" name="EC_Name"><br>
+
+            <label for="EC_Number">Emergency Contact Number:</label>
+            <input type="number" name="EC_number" min="10" max="10"><br>
+        </div>
+        <div class="comment"> Signature:<br><br>
+            <textarea rows="4" cols="50">
+        </textarea>
+        </div>
+        <div class="submit-reset">
+            <input id="submit" type="submit" value="Submit"><br><br>
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+</body>
+
+</html>
